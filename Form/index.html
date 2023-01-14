@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">My Title</h1>
+    <p id="description">Description</p>
+    <form id="survey-form">
+      <label id="name-label">Name<input placeholder="Put your name" id="name" type="text" required></label>
+      <label id="email-label">Email<input placeholder="Put your Email" id="email" type="email" required></label>
+      <label id="number-label">Number<input placeholder="Number" id="number" type="number" min="5" max="20"></label>
+      <select id="dropdown" name="dropdown"> 
+        <option value="">Select One</option>
+        <option value="1">Opção 1</option>
+        <option value="2">Opção 2</option>
+      </select>
+    <input type="radio" id="radio1" value="radio1" name="radio1">
+     <input type="radio" id="radio2" value="radio2" name="radio1">
+     <input id="checkbox1" type="checkbox" required name="checkbox1" value="checkbox1" class="inline" />
+     <input id="checkbox2" type="checkbox" required name="checkbox2" value="checkbox2" class="inline" />
+     <Button id="submit">
+        <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+       
+    </form>
+  </body>
+</html>
