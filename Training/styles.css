@@ -1,0 +1,13 @@
+h1{
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+}
+
+div{
+    background-color: darkslategray;
+    justify-content: center;
+    text-align: center;
+}
